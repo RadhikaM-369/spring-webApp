@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Govt. details</title>
+</head>
+<body>
+<h1>Govt. details </h1>
+	<form action="govt.do">
+		<div><label>State Name</label>
+			<select name="stateName" id="stateName">
+                <option value="">Select</option>
+                <option value="KARNATAKA">KARNATAKA</option>
+                <option value="TAMILNADU">TAMILNADU</option>
+                <option value="ANDHRAPRADESH">ANDHRAPRADESH</option>
+                <option value="MAHARASHTRA">MAHARASHTRA</option>
+             </select>
+		</div>
+		
+		<div>
+		<label>Party Name</label> 
+		<select name="partyName" id="partyName" >
+                <option value="">Select</option>
+                <option value="BJP">BJP</option>
+                <option value="CONGRESS">CONGRESS</option>
+                <option value="JDS">JDS</option>
+        </select>
+		</div>
+		<label>CM name</label><input type="text" name="cmName" />
+		<label>Governor Name</label><input type="text" name="governorName" />
+		<label>DeputyChiefMinister Name</label><input type="text" name="dyCmName" />
+		
+		<input type="submit" value="send details" />
+		<a href="Welcome.html"> HOME</a>
+	</form>
+
+</body>
+</html>
